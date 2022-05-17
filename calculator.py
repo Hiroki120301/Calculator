@@ -7,6 +7,7 @@ def addition():
     while option == "1" :
         try :
             input_number = float(input("Enter the number you would like to add to"))
+            result = input_number
 
             input_number = float(input("Enter the number you would like to add"))
             result += input_number
@@ -28,6 +29,7 @@ def subtraction():
     while option == "1":
         try:
             input_number = float(input("Enter the number you would like to subtract from"))
+            result = input_number
 
             input_number = float(input("Enter the number you would like to subtract"))
             result -= input_number
@@ -49,6 +51,7 @@ def division():
     while option == "1" :
         try :
             input_number = float(input("Enter the number you would like to divide"))
+            result = input_number
 
             input_number = float(input("Enter the number you would like to divide by"))
             result = result / input_number
@@ -69,7 +72,8 @@ def multiplication():
     while option == "1" :
         try :
             input_number = float(input("Enter the number you would like to multiply"))
-
+            result = input_number
+            
             input_number = float(input("Enter the number you would like to multiply by"))
             result = result * input_number
 
